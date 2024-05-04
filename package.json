@@ -27,6 +27,7 @@
   "scripts": {
     "prepublishOnly": "yarn run clean && yarn run build",
     "lint": "eslint .",
+    "start": "react app.js",
     "test": "jest",
     "watch": "yarn run build:dev -w",
     "build:dev": "ncc build ./src/index.ts -o build/",
